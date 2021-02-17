@@ -3,7 +3,7 @@
 import time
 from rq import Queue
 from redis import Redis
-from . import count_words_at_url
+from tasks_ import count_words_at_url
 
 # задаём соединение с Redis по умолчанию
 redis_conn = Redis()
